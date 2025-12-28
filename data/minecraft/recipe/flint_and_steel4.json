@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:raw_iron",
+    "minecraft:flint","minecraft:stick","minecraft:stick","minecraft:stick","minecraft:stick"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:flint_and_steel",
+    "components": {
+      "damage": 27
+    }
+  },
+  "group": "flint_and_steel"
+}

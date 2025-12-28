@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "#minecraft:planks",
+    "C": "minecraft:cobblestone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "C",
+    "S",
+    "#"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:tripwire_hook"
+  }
+}
