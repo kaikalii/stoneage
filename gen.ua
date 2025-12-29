@@ -66,7 +66,6 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "powered_rail"
    "piston"
    "hopper"
-   "light_weighted_pressure_plate"
    "heavy_weighted_pressure_plate"
    "crafter"
   }
