@@ -33,7 +33,8 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     | $"_cut\_copper\_slab"
     | $"_cut\_copper\_stairs"
     | $"_copper\_grate"
-    | $"_chiseled\_copper"})
+    | $"_chiseled\_copper"
+    | $"_copper\_bulb"})
 
   # Others
   {"bucket"
@@ -52,6 +53,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "gold_block"
    "light_weighted_pressure_plate"
    "heavy_weighted_pressure_plate"
+   "crafter"
   }
 }
 ⍚RecipePath
