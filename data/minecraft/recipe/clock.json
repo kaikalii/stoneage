@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": "minecraft:tripwire_hook",
+    "G": "minecraft:glass",
+    "Q": "minecraft:quartz",
+    "S": [
+      "minecraft:yellow_dye",
+      "minecraft:gold_nugget",
+      "minecraft:raw_gold"
+    ],
+    "D": [
+      "minecraft:blue_dye",
+      "minecraft:light_blue_dye",
+      "minecraft:cyan_dye",
+      "minecraft:lapis_lazuli"
+    ],
+    "N": [
+      "minecraft:black_dye",
+      "minecraft:gray_dye"
+    ],
+    "M": [
+      "minecraft:white_dye",
+      "minecraft:light_gray_dye"
+    ]
+  },
+  "pattern": [
+    "DSG",
+    "QTQ",
+    "GMN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock"
+  }
+}

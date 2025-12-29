@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:glass",
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:string",
+    "T": "minecraft:stick"
+  },
+  "pattern": [
+    "TGT",
+    "TAS",
+    "SGT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spyglass"
+  }
+}

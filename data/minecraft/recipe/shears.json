@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:flint"
+  },
+  "pattern": [
+    " #",
+    "# "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shears",
+    "components": {
+      "damage": 138
+    }
+  }
+}

@@ -24,6 +24,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
 
   {"bucket"
    "crossbow"
+   "shield"
    "lightning_rod"
    "anvil"
    "blast_furnace"
@@ -42,14 +43,14 @@ RecipePath ← $"data/minecraft/recipe/_.json"
 # Multiple flint and steel recipes
 ⇌⁅×64/7 ⇡7
 °˜⊏ °⊸⊢ □"" °⋕ +1°⊏
-≡(&fwa ? ⊓(
+≡(&fwa ⊓(
     RecipePath $"flint\_and\_steel_"
   | ♭↯⊙",\"minecraft:stick\"" +1
     $$ {
     $$   "type": "minecraft:crafting\_shapeless",
     $$   "category": "equipment",
     $$   "ingredients": [
-    $$     "minecraft:raw\_iron",
+    $$     ["minecraft:raw\_iron", "minecraft:iron\_ingot"],
     $$     "minecraft:flint"_
     $$   ],
     $$   "result": {

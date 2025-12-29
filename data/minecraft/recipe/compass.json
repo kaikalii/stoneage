@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:glass",
+    "#": [
+      "minecraft:raw_iron",
+      "minecraft:iron_ingot"
+    ],
+    "R": "minecraft:redstone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "GRG",
+    "#S#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:compass"
+  }
+}
