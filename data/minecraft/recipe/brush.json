@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "minecraft:string",
+    "#": "#stoneage:affix",
     "I": "minecraft:stick",
     "X": "minecraft:feather"
   },

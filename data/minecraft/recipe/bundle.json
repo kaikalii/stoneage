@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "#stoneage:affix",
-    "X": "minecraft:leather"
+    "#": "minecraft:leather",
+    "-": "#stoneage:tie"
   },
   "pattern": [
-    " X ",
-    "X#X"
+    "-",
+    "#"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:saddle"
+    "id": "minecraft:bundle"
   }
 }

@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:flint",
-    "S": "minecraft:string",
+    "S": "#stoneage:tie",
     "T": "minecraft:stick"
   },
   "pattern": [

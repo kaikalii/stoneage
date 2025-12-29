@@ -9,7 +9,7 @@
     ],
     "R": "minecraft:redstone",
     "S": "minecraft:stick",
-    "N": "minecraft:string"
+    "N": "#stoneage:affix"
   },
   "pattern": [
     "GRG",

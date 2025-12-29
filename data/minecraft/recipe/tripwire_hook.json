@@ -3,7 +3,7 @@
   "category": "redstone",
   "key": {
     "#": "#minecraft:planks",
-    "C": "minecraft:string",
+    "C": "#stoneage:affix",
     "S": "minecraft:stick"
   },
   "pattern": [
