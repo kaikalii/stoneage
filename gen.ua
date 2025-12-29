@@ -35,17 +35,21 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     | $"_copper\_bulb"))
 
   # Ingot smelting
-  ({"copper" "iron" "gold"}
-   ⍚⊃(
+  (Smelting ← ⊃(
     | $"_\_nugget\_from\_smelting"
     | ˙$"_\_ingot\_from\_smelting\_raw\__"
     | ˙$"_\_ingot\_from\_smelting\__\_ore"
-    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore"
+    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore")
+   Blasting ← ⊃(
     | $"_\_nugget\_from\_blasting"
     | ˙$"_\_ingot\_from\_blasting\_raw\__"
     | ˙$"_\_ingot\_from\_blasting\__\_ore"
     | ˙$"_\_ingot\_from\_blasting\_deepslate\__\_ore"
-    ))
+    )
+   {⊃Smelting Blasting "copper"
+    ⊃Smelting Blasting "iron"
+    ⊃Smelting˙$"_\_ingot\_from\_smelting\_nether\__\_ore" "gold"}
+  )
 
   # Others
   {"bucket"
