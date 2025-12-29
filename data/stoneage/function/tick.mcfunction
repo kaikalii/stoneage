@@ -1,2 +1,1 @@
-execute as @e[type=villager] run function stoneage:replace_trades
-execute as @e[type=wandering_trader] run function stoneage:replace_trades
+function stoneage:replace_trades/tick
