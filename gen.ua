@@ -18,9 +18,12 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     "diamond"}
    ♭⊞⍚$"_\__")
 
-  ({"bars" "chain" "door" "trapdoor"}
+  ({"block" "bars" "chain" "door" "trapdoor"}
    {"copper" "iron"}
    ♭⊞⍚$"_\__")
+
+  ({"" "weathered" "oxidized" ""}
+   /◇⊂≡⊃{$"\_cut\_copper"|$"\_cut\_copper\_slab"|$"\_cut\_copper\_stairs"})
 
   {"bucket"
    "crossbow"
@@ -34,7 +37,11 @@ RecipePath ← $"data/minecraft/recipe/_.json"
    "detector_rail"
    "powered_rail"
    "piston"
-   "hopper"}
+   "hopper"
+   "gold_block"
+   "light_weighted_pressure_plate"
+   "heavy_weighted_pressure_plate"
+  }
 }
 
 ⍚RecipePath
