@@ -27,13 +27,25 @@ RecipePath ← $"data/minecraft/recipe/_.json"
   ({"" "weathered_" "exposed_" "oxidized_"}
    {"" "waxed_"}
    /⊂⊞⍚⊂
-   /⊂≡⊃{
-      $"_cut\_copper"
+   ⍚⊃($"_cut\_copper"
     | $"_cut\_copper\_slab"
     | $"_cut\_copper\_stairs"
     | $"_copper\_grate"
     | $"_chiseled\_copper"
-    | $"_copper\_bulb"})
+    | $"_copper\_bulb"))
+
+  # Ingot smelting
+  ({"copper" "iron" "gold"}
+   ⍚⊃(
+    | $"_\_nugget\_from\_smelting"
+    | ˙$"_\_ingot\_from\_smelting\_raw\__"
+    | ˙$"_\_ingot\_from\_smelting\__\_ore"
+    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore"
+    | $"_\_nugget\_from\_blasting"
+    | ˙$"_\_ingot\_from\_blasting\_raw\__"
+    | ˙$"_\_ingot\_from\_blasting\__\_ore"
+    | ˙$"_\_ingot\_from\_blasting\_deepslate\__\_ore"
+    ))
 
   # Others
   {"bucket"
