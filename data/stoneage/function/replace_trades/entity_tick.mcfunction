@@ -32,7 +32,6 @@ function stoneage:replace_trades/from_to {kind:sell,from:iron_sword,to:stone_swo
 function stoneage:replace_trades/from_to {kind:sell,from:diamond_sword,to:stone_sword}
 
 # Wandering Trader
-function stoneage:replace_trades/from_to {kind:buy,from:water_bucket,to:potion}
-function stoneage:replace_trades/from_to {kind:buy,from:milk_bucket,to:honey_bottle}
+execute if data entity @s Offers.Recipes[{"buy":{id:"minecraft:water_bucket"}}] run data modify entity @s Offers.Recipes[{"buy":{id:"minecraft:water_bucket"}}].buy merge value {id:"minecraft:potion",components:{potion_contents:"water"}}
 function stoneage:replace_trades/with_count {kind:sell,from:tropical_fish_bucket,to:tropical_fish,count:4}
 function stoneage:replace_trades/with_count {kind:sell,from:pufferfish_bucket,to:pufferfish,count:4}

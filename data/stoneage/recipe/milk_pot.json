@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:flower_pot"
+    ],
+    "result": {
+        "id": "minecraft:flower_pot",
+        "components": {
+            "custom_name": "Empty Milk Pot"
+        }
+    }
+}
