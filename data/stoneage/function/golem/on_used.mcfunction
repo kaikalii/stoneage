@@ -1,0 +1,1 @@
+function stoneage:hitscan {f:"if block ~ ~ ~ carved_pumpkin run return run function stoneage:golem/try_make"}
