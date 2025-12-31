@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": "minecraft:furnace",
+    "B": [
+      "minecraft:bricks",
+      "minecraft:nether_bricks"
+    ],
+    "T": [
+      "minecraft:polished_deepslate",
+      "minecraft:polished_basalt",
+      "minecraft:polished_blackstone"
+    ],
+    "#": [
+      "minecraft:smooth_stone",
+      "minecraft:quartz_block"
+    ]
+  },
+  "pattern": [
+    "TTT",
+    "BXB",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
+}

@@ -54,6 +54,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Flint and Steel can now use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
 - Shields can now be crafted with a plank, log, or raw iron instead of an iron ingot, with corresponding reductions in durability.
 - Completely overhauled the recipes for:
+  - Blast Furnace
   - Shears
   - Spyglass
   - Clock
