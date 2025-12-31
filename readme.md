@@ -18,16 +18,14 @@ The recipe book will help you with new recipes!
 
 While these recipes are removed, most of the blocks and items can still be found via natural generation and loot. The items are also removed from villager and wandering trader trades.
 
-- Copper and iron smelting and blasting
-- Gold smelting (but not blasting)
-- Copper, iron, and diamond swords, tools, and armor
-- Copper, iron, and netherite armor trimming
-- Copper decorative blocks (but not waxing)
+- Iron smelting and blasting
+- Copper and gold smelting (but not blasting)
+- Iron and diamond swords, tools, and armor
+- Iron and netherite armor trimming
+- Smelting recipes for ore blocks
 - Bucket
 - Crossbow
-- Lightning_Rod
 - Anvil
-- Blast Furnace
 - Minecart
 - Rail
 - Activator Rail
@@ -40,6 +38,9 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Modified Recipes
 
+- Raw copper and gold now smelt into nuggets rather than ingots, and they require a blast furnace
+- Glass now requires a blast furnace
+- Glazed terracotta now requires a blast furnace
 - Many recipes that take string can now take other items that are used to tie things:
   - String
   - Vines

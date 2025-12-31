@@ -17,11 +17,16 @@
   ⍚$"iron\__"{"block" "bars" "chain" "door" "trapdoor"}
 
   # Ingot smelting
-  (Smelting ← ⊃(
+  (SmeltingOre ← ⊃(
+    | ˙$"_\_from\_smelting\__\_ore"
+    | ˙$"_\_from\_smelting\_deepslate\__\_ore"
+    )
+   Smelting ← ⊃(
     | $"_\_nugget\_from\_smelting"
     | ˙$"_\_ingot\_from\_smelting\_raw\__"
     | ˙$"_\_ingot\_from\_smelting\__\_ore"
-    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore")
+    | ˙$"_\_ingot\_from\_smelting\_deepslate\__\_ore"
+    )
    Blasting ← ⊃(
     | $"_\_nugget\_from\_blasting"
     | ˙$"_\_ingot\_from\_blasting\_raw\__"
@@ -30,7 +35,15 @@
     )
    {⊃Smelting Blasting "iron"
     Smelting "copper"
-    ⊃Smelting˙$"_\_ingot\_from\_smelting\_nether\__\_ore" "gold"}
+    ⊃Smelting˙$"_\_ingot\_from\_smelting\_nether\__\_ore" "gold"
+    SmeltingOre "redstone"
+    SmeltingOre "lapis"
+    SmeltingOre "diamond"
+    SmeltingOre "emerald"
+    "lapis_lazuli_from_smelting_lapis_ore"
+    "lapis_lazuli_from_smelting_deepslate_lapis_ore"
+    "quartz"
+    "netherite_scrap"}
   )
 
   # Others

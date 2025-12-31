@@ -21,12 +21,16 @@
       {"namespace": "minecraft", "path": "recipe/diamond_axe.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_boots.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_chestplate.json"},
+      {"namespace": "minecraft", "path": "recipe/diamond_from_smelting_deepslate_diamond_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/diamond_from_smelting_diamond_ore.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_helmet.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_hoe.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_leggings.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_pickaxe.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_shovel.json"},
       {"namespace": "minecraft", "path": "recipe/diamond_sword.json"},
+      {"namespace": "minecraft", "path": "recipe/emerald_from_smelting_deepslate_emerald_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/emerald_from_smelting_emerald_ore.json"},
       {"namespace": "minecraft", "path": "recipe/gold_ingot_from_smelting_deepslate_gold_ore.json"},
       {"namespace": "minecraft", "path": "recipe/gold_ingot_from_smelting_gold_ore.json"},
       {"namespace": "minecraft", "path": "recipe/gold_ingot_from_smelting_nether_gold_ore.json"},
@@ -56,10 +60,18 @@
       {"namespace": "minecraft", "path": "recipe/iron_shovel.json"},
       {"namespace": "minecraft", "path": "recipe/iron_sword.json"},
       {"namespace": "minecraft", "path": "recipe/iron_trapdoor.json"},
+      {"namespace": "minecraft", "path": "recipe/lapis_from_smelting_deepslate_lapis_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/lapis_from_smelting_lapis_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/lapis_lazuli_from_smelting_deepslate_lapis_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/lapis_lazuli_from_smelting_lapis_ore.json"},
       {"namespace": "minecraft", "path": "recipe/minecart.json"},
+      {"namespace": "minecraft", "path": "recipe/netherite_scrap.json"},
       {"namespace": "minecraft", "path": "recipe/piston.json"},
       {"namespace": "minecraft", "path": "recipe/powered_rail.json"},
-      {"namespace": "minecraft", "path": "recipe/rail.json"}
+      {"namespace": "minecraft", "path": "recipe/quartz.json"},
+      {"namespace": "minecraft", "path": "recipe/rail.json"},
+      {"namespace": "minecraft", "path": "recipe/redstone_from_smelting_deepslate_redstone_ore.json"},
+      {"namespace": "minecraft", "path": "recipe/redstone_from_smelting_redstone_ore.json"}
     ]
   }
 }
