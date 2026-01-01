@@ -23,7 +23,7 @@
               "options": "minecraft:soul_speed"
             }
           ],
-          "name": "minecraft:golden_boots",
+          "name": "minecraft:iron_boots",
           "weight": 8
         },
         {
@@ -72,7 +72,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:copper_nugget",
+          "name": "minecraft:iron_nugget",
           "weight": 10
         },
         {
