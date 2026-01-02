@@ -88,3 +88,4 @@ While these recipes are removed, most of the blocks and items can still be found
 - Anvil Replacements
   - Nametags can be used on a sign to change the name
   - Enchanted books and nametags can be applied to equipment by holding the book or nametag in one hand and the equipment in the other and using the book or nametag. Armor must be held in the offhand to avoid equipping it instead.
+- Torches thrown from a player's inventory will automatically place as blocks when touching the ground.

@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{count:1},OnGround:true}] at @s if block ~ ~ ~ air run function chalcolithic:throw/try_place
