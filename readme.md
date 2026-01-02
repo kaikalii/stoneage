@@ -6,9 +6,10 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
 
 # Quick Overview of Changes
 
-- No copper, iron, or diamond weapons, tools, or armor
-- No minecarts, pistons, or hoppers
+- No crafting of iron or diamond weapons, tools, or armor
+- Many smelting recipes require a blast furnace
 - Altered recipes for many things
+- No crafting of minecarts, pistons, or hoppers
 
 The recipe book will help you with new recipes!
 
@@ -82,4 +83,5 @@ While these recipes are removed, most of the blocks and items can still be found
 - Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
 - Iron golems are now *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 - Remove buckets from loot tables
+- Village chests now contain copper ingots and equipment where they once had iron
 - Village structures that generated with iron bars now generate with copper bars
