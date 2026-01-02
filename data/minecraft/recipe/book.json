@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    [
+      "minecraft:string",
+      "minecraft:slime_ball",
+      "minecraft:honey_bottle"
+    ],
+    [
+      "minecraft:leather",
+      "minecraft:rabbit_hide",
+      "minecraft:big_dripleaf",
+      "minecraft:lily_pad",
+      "minecraft:kelp"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:book"
+  }
+}

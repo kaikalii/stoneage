@@ -69,6 +69,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Map
   - Smithing Table
   - Cauldron
+  - Books
 
 ## Added Recipes
 
