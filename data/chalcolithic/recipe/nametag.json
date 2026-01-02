@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:string",
+        "minecraft:paper"
+    ],
+    "result": {
+        "id": "minecraft:name_tag"
+    }
+}
