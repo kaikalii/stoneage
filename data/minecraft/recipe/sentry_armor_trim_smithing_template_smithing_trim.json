@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smithing_trim",
-  "addition": "#stoneage:trim_materials",
+  "addition": "#chalcolithic:trim_materials",
   "base": "#minecraft:trimmable_armor",
   "pattern": "minecraft:sentry",
   "template": "minecraft:sentry_armor_trim_smithing_template"

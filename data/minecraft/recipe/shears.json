@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:flint",
-    "S": "#stoneage:tie",
+    "S": "#chalcolithic:tie",
     "T": "minecraft:stick"
   },
   "pattern": [

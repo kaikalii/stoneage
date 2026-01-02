@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:leather",
-    "-": "#stoneage:tie"
+    "-": "#chalcolithic:tie"
   },
   "pattern": [
     "-",

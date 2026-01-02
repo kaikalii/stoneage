@@ -1,0 +1,1 @@
+function chalcolithic:hitscan {f:"if block ~ ~ ~ carved_pumpkin run return run function chalcolithic:golem/try_make"}

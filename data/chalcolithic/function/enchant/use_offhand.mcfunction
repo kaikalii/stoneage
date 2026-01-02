@@ -1,0 +1,2 @@
+data modify storage chalcolithic:macro enchantments set from entity @s equipment.offhand.components.minecraft:stored_enchantments
+function chalcolithic:enchant/enchant_mainhand with storage chalcolithic:macro

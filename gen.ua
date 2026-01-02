@@ -128,7 +128,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     $"data/minecraft/recipe/_\_armor\_trim\_smithing\_template\_smithing\_trim.json"
   | ˙$$ {
      $$   "type": "minecraft:smithing\_trim",
-     $$   "addition": "#stoneage:trim\_materials",
+     $$   "addition": "#chalcolithic:trim\_materials",
      $$   "base": "#minecraft:trimmable\_armor",
      $$   "pattern": "minecraft:_",
      $$   "template": "minecraft:_\_armor\_trim\_smithing\_template"

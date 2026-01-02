@@ -1,1 +1,0 @@
-execute at @s as @p[distance=..1.2,nbt={SelectedItem:{id:"minecraft:flower_pot",components:{"minecraft:custom_name":"Empty Milk Pot"}}}] run function stoneage:milk/milk

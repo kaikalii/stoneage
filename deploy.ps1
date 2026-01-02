@@ -1,4 +1,4 @@
-# Deploy stoneage datapack to a Minecraft world
+# Deploy chalcolithic datapack to a Minecraft world
 # Usage: .\deploy.ps1 -WorldPath "path\to\world"
 # Or set MINECRAFT_WORLD environment variable
 
@@ -13,11 +13,11 @@ $deployments = @()
 
 # Add specified world path if provided
 if ($WorldPath) {
-    $deployments += Join-Path $WorldPath "datapacks\stoneage"
+    $deployments += Join-Path $WorldPath "datapacks\chalcolithic"
 }
 
 # Add default Minecraft installation datapacks folder
-$defaultMinecraftDatapacks = Join-Path $env:APPDATA ".minecraft\datapacks\stoneage"
+$defaultMinecraftDatapacks = Join-Path $env:APPDATA ".minecraft\datapacks\chalcolithic"
 $deployments += $defaultMinecraftDatapacks
 
 if ($deployments.Count -eq 0) {

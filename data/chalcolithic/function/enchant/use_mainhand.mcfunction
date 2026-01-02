@@ -1,0 +1,2 @@
+data modify storage chalcolithic:macro enchantments set from entity @s SelectedItem.components.minecraft:stored_enchantments
+function chalcolithic:enchant/enchant_offhand with storage chalcolithic:macro
