@@ -1,0 +1,2 @@
+execute store result score #temp chalc run data get entity @s SelectedItem.components."minecraft:custom_name"
+execute if score #temp chalc = #0 chalc run item modify entity @s weapon.mainhand chalcolithic:make_nametag_usable

@@ -76,12 +76,15 @@ While these recipes are removed, most of the blocks and items can still be found
 - String from wool or carpets. Has diminishing returns.
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
 - Flower pots can be freely crafted to empty milk pots, which can be used to milk cows and goats in lieu of buckets.
+- Nametag
 
 ## Other Changes
 
 - Copper pickaxes can now mine all blocks that iron pickaxes can
-- Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
 - Iron golems are now *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 - Remove buckets from loot tables
 - Village chests now contain copper ingots and equipment where they once had iron
 - Village structures that generated with iron bars now generate with copper bars
+- Anvil Replacements
+  - Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
+  - Nametags can be used on a sign to change the name
