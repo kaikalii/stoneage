@@ -1,12 +1,12 @@
 # Description
 
-Stone Age is a Minecraft datapack that alters the games tech-level.
+Chalcolithic is a datapack that lowers Minecraft's tech level and flattens progression.
 
 High-temperature metallurgy is a lost art, and neither the player nor villagers are capable of it. Advanced equipment and blocks can only be found in the ruins of ancient civilizations.
 
 # Quick Overview of Changes
 
-- No crafting of iron or diamond weapons, tools, or armor
+- No crafting of iron or diamond weapons, tools, or armor - copper is king
 - Many smelting recipes require a blast furnace
 - Altered recipes for many things
 - No crafting of minecarts, pistons, or hoppers
