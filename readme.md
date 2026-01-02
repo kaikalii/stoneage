@@ -38,26 +38,26 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Modified Recipes
 
-- Raw copper and gold now smelt into nuggets rather than ingots, and they require a blast furnace
-- A copper ingot is now equivalent to 4 copper nuggets (down from 9)
-- A copper block is now equivalent to 4 copper ingot (down from 9)
-- A gold ingot is now equivalent to 4 gold nuggets (down from 9)
-  - Gold ores now drop 1-4 raw gold (up from 1)
-  - Nether gold ores now drop 1-3 nuggets (down from 1-4)
-- Glass now requires a blast furnace
-- Glazed terracotta now requires a blast furnace
-- Many recipes that take string can now take other items that are used to tie things:
+- Raw copper and gold smelt into nuggets rather than ingots, and they require a blast furnace
+- A copper ingot is equivalent to 4 copper nuggets (down from 9)
+- A copper block is equivalent to 4 copper ingot (down from 9)
+- A gold ingot is equivalent to 4 gold nuggets (down from 9)
+  - Gold ores drop 1-4 raw gold (up from 1)
+  - Nether gold ores drop 1-3 nuggets (down from 1-4)
+- Glass requires a blast furnace
+- Glazed terracotta requires a blast furnace
+- Many recipes that take string can take other items that are used to tie things:
   - String
   - Vines
   - Weeping Vines
   - Twisting Vines
   - Leather
   - Rabbit Hide
-- Some recipes that previously required an ingot now require either a tie item or a sticky item:
+- Some recipes that previously required an ingot require either a tie item or a sticky item:
   - Brush
   - Saddle
-- Flint and Steel can now use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
-- Shields and crossbows can now be crafted with a copper ingot instead of iron.
+- Flint and Steel can use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
+- Shields and crossbows can be crafted with a copper ingot instead of iron.
 - Completely overhauled the recipes for:
   - Blast Furnace
   - Shears
@@ -80,11 +80,11 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Other Changes
 
-- Copper pickaxes can now mine all blocks that iron pickaxes can
-- Iron golems are now *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
+- Copper pickaxes can mine all blocks that iron pickaxes can
+- Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 - Remove buckets from loot tables
-- Village chests now contain copper ingots and equipment where they once had iron
-- Village structures that generated with iron bars now generate with copper bars
+- Village chests contain copper ingots and equipment where they once had iron
+- Village structures that generated with iron bars generate with copper bars
 - Anvil Replacements
-  - Enchanted books can now be applied to equipment by holding the book in one hand and the item in the other and using the book. Items with right-click functionality *must* be held in the offhand.
   - Nametags can be used on a sign to change the name
+  - Enchanted books and nametags can be applied to equipment by holding the book or nametag in one hand and the equipment in the other and using the book or nametag. Armor must be held in the offhand to avoid equipping it instead.
