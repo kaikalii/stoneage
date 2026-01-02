@@ -4,7 +4,7 @@
   "key": {
     "T": "minecraft:tripwire_hook",
     "#": "minecraft:soul_torch",
-    "G": "minecraft:glass"
+    "G": "minecraft:glass_pane"
   },
   "pattern": [
     "T",
