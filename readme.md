@@ -80,12 +80,21 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Other Changes
 
+### Copper
 - Copper pickaxes can mine all blocks that iron pickaxes can
-- Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
-- Remove buckets from loot tables
 - Village chests contain copper ingots and equipment where they once had iron
 - Village structures that generated with iron bars generate with copper bars
-- Anvil Replacements
-  - Nametags can be used on a sign to change the name
-  - Enchanted books and nametags can be applied to equipment by holding the book or nametag in one hand and the equipment in the other and using the book or nametag. Armor must be held in the offhand to avoid equipping it instead.
+
+### Iron
+- Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
+- Remove buckets from loot tables
+
+### Anvil Replacements
+- Nametags can be used on a sign to change the name
+- Enchanted books and nametags can be applied to equipment by holding the book or nametag in one hand and the equipment in the other and using the book or nametag. Armor must be held in the offhand to avoid equipping it instead.
+
+### Enchanting
+- The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
+
+### Mechanics
 - Torches thrown from a player's inventory will automatically place as blocks when touching the ground.

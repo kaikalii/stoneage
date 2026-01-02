@@ -1,0 +1,1 @@
+execute as @a[nbt={equipment:{head:{components:{"minecraft:enchantments":{"chalcolithic:darksight":1}}}}}] at @s align xyz positioned ~0.5 ~ ~0.5 run function chalcolithic:darksight/show_darkness

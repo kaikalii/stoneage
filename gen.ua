@@ -135,3 +135,10 @@ RecipePath ← $"data/minecraft/recipe/_.json"
      $$ }
   )
 )
+
+# Show darkness sphere
+▽<+0.5⟜(⊸(⍜˙×/+°⍉) ♭₂⧋-⟜(⇡ ↯3 +1×2)) 6
+/◇⊂₃@\n⍚°[°$"execute positioned ~_ ~_ ~_ run function chalcolithic:darksight/show\_darkness\_at"]
+$$ # Generated file
+$$ _
+&fwa "data/chalcolithic/function/darksight/show_darkness.mcfunction"
