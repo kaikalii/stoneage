@@ -1,0 +1,1 @@
+return run function chalc:random/random {n:2}

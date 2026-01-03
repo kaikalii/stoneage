@@ -13,4 +13,5 @@ execute as @n[type=marker] at @s run particle dust{color:[0.90,0.50,0.50],scale:
 execute as @n[type=marker] at @s run particle dust{color:[0.95,0.55,0.55],scale:1} ^ ^ ^3.5 0 0 0 0 1
 execute as @n[type=marker] at @s run particle dust{color:[1.00,0.60,0.60],scale:1} ^ ^ ^4.0 0 0 0 0 1
 execute as @n[type=marker] at @s positioned ^ ^ ^4 run playsound item.book.put block @a
-kill @n[type=marker]
+kill @n[type=marker,nbt=!{CustomName:"Enchantment Node"}]
+return 0
