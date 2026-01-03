@@ -1,0 +1,1 @@
+execute as @e[type=marker,nbt={CustomName:"Enchantment Node"}] at @s run function chalc:imbue/tick_node
