@@ -8,13 +8,11 @@
   },
   "filter": {
     "block": [
-      {"namespace": "minecraft", "path": "advancement/story/lava_bucket.json"},
       {"namespace": "minecraft", "path": "advancement/story/shiny_gear.json"},
       {"namespace": "minecraft", "path": "advancement/nether/netherite_armor.json"},
       {"namespace": "minecraft", "path": "advancement/husbandry/obtain_netherite_hoe.json"},
       {"namespace": "minecraft", "path": "recipe/activator_rail.json"},
       {"namespace": "minecraft", "path": "recipe/anvil.json"},
-      {"namespace": "minecraft", "path": "recipe/bucket.json"},
       {"namespace": "minecraft", "path": "recipe/copper_ingot_from_smelting_copper_ore.json"},
       {"namespace": "minecraft", "path": "recipe/copper_ingot_from_smelting_deepslate_copper_ore.json"},
       {"namespace": "minecraft", "path": "recipe/copper_ingot_from_smelting_raw_copper.json"},
@@ -40,7 +38,6 @@
       {"namespace": "minecraft", "path": "recipe/gold_ingot_from_smelting_nether_gold_ore.json"},
       {"namespace": "minecraft", "path": "recipe/gold_ingot_from_smelting_raw_gold.json"},
       {"namespace": "minecraft", "path": "recipe/gold_nugget_from_smelting.json"},
-      {"namespace": "minecraft", "path": "recipe/heavy_weighted_pressure_plate.json"},
       {"namespace": "minecraft", "path": "recipe/hopper.json"},
       {"namespace": "minecraft", "path": "recipe/iron_ingot_from_blasting_deepslate_iron_ore.json"},
       {"namespace": "minecraft", "path": "recipe/iron_ingot_from_blasting_iron_ore.json"},

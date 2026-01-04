@@ -13,7 +13,7 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
   - Many smelting recipes require a **blast furnace**, which has a new recipe itself
   - Crafting changes mean that **copper is king**
 - **Overhauled the enchanting system** to be based more on exploration and less on random chance
-- **Buckets are removed**, as they are too magical
+- **Buckets are nerfed**. The source blocks they place quickly disappear.
 - Much more!
 
 The recipe book will help you with new recipes! Advancements are also tweaked to help you progress.
@@ -29,7 +29,6 @@ While these recipes are removed, most of the blocks and items can still be found
 - Iron and diamond swords, tools, and armor
 - Iron and netherite armor trimming
 - Smelting recipes for ore blocks
-- Bucket
 - Anvil
 - Minecart
 - Rail
@@ -38,7 +37,6 @@ While these recipes are removed, most of the blocks and items can still be found
 - Powered Rail
 - Piston
 - Hopper
-- Heavy Weighted Pressure Plate
 - Crafter
 - Enchanting Table
 
@@ -81,7 +79,6 @@ While these recipes are removed, most of the blocks and items can still be found
 
 - String from wool or carpets. Has diminishing returns.
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
-- Flower pots can be freely crafted to empty milk pots, which can be used to milk cows and goats in lieu of buckets.
 - Nametag
 - Enchantable books for the new enchanting system
 
@@ -94,8 +91,8 @@ While these recipes are removed, most of the blocks and items can still be found
 - Woodland mansions that generated with iron doors generate with copper doors
 
 ### Iron
+- Iron cannot be smelted in any way, but ingots and equipment can still be found.
 - Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
-- Remove buckets from loot tables
 
 ### Enchanting
 - Rather than at an enchanting table, all enchanting is now done through enchanted books
@@ -119,6 +116,10 @@ While these recipes are removed, most of the blocks and items can still be found
 - Repair amount scales with the material as a fraction of the equipment's crafting recipe
 - Each bit of repair costs 1 level of experience
 - Diamond gear cannot be repaired
+
+### Buckets
+- Water and lava buckets can place source blocks, but they will quickly disappear.
+- Placing a water or lava bucket (including fish buckets) in a dispenser will leak the contents.
 
 ### Nametags
 - Nametags can be used on a sign to change the name

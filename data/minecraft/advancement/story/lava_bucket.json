@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:story/lava_bucket",
+  "parent": "minecraft:story/root",
   "criteria": {
-    "obsidian": {
+    "lava_bucket": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": "minecraft:lava_bucket"
           }
         ]
       },
@@ -14,19 +14,19 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.story.form_obsidian.description"
+      "translate": "advancements.story.lava_bucket.description"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:obsidian"
+      "id": "minecraft:lava_bucket"
     },
     "title": {
-      "translate": "advancements.story.form_obsidian.title"
+      "translate": "advancements.story.lava_bucket.title"
     }
   },
   "requirements": [
     [
-      "obsidian"
+      "lava_bucket"
     ]
   ],
   "sends_telemetry_event": true

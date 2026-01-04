@@ -44,8 +44,7 @@
   )
 
   # Others
-  {"bucket"
-   "anvil"
+  {"anvil"
    "minecart"
    "rail"
    "activator_rail"
@@ -53,13 +52,11 @@
    "powered_rail"
    "piston"
    "hopper"
-   "heavy_weighted_pressure_plate"
    "crafter"
    "enchanting_table"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
 {
-  "story/lava_bucket"
   "story/shiny_gear"
   "nether/netherite_armor"
   "husbandry/obtain_netherite_hoe"
