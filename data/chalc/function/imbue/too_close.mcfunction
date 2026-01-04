@@ -14,4 +14,5 @@ execute as @n[type=marker] at @s run particle dust{color:[0.95,0.55,0.55],scale:
 execute as @n[type=marker] at @s run particle dust{color:[1.00,0.60,0.60],scale:1} ^ ^ ^4.0 0 0 0 0 1
 execute as @n[type=marker] at @s positioned ^ ^ ^4 run playsound item.book.put block @a
 kill @n[type=marker,nbt=!{CustomName:"Enchantment Node"}]
+title @s actionbar {"text": "Too close to an existing enchanting spot", color: red}
 return 0

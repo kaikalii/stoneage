@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/root",
+  "parent": "chalc:enchant_book",
   "criteria": {
     "manual": {
       "trigger": "impossible"
@@ -19,6 +19,5 @@
     [
       "manual"
     ]
-  ],
-  "sends_telemetry_event": true
+  ]
 }

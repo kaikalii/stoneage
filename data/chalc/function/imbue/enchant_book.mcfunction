@@ -3,3 +3,4 @@ clear @s *[custom_data~{enchantable:1b}] 1
 $give @s enchanted_book[stored_enchantments=$(enchantments)]
 playsound block.enchantment_table.use block
 $xp add @s $(cost) levels
+advancement grant @s only chalc:enchant_book
