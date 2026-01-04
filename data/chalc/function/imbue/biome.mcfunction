@@ -1,1 +1,1 @@
-$execute if biome ~ ~ ~ $(biome) if score @s chalc.levels >= #$(req) chalc.level_req if function chalc:random/$(chance) run function chalc:imbue/add_enchantment {enchant:$(enchant), req:$(req), level:$(level)}
+$function chalc:imbue/add_if {f:"if biome ~ ~ ~ $(biome)",enchant:$(enchant), req:$(req), level:$(level), chance:$(chance)}

@@ -28,7 +28,7 @@
 | Piercing              |      | Biome taiga, snowy_taiga                                                                     |
 | Power                 |      | Biome old_growth_pine_taiga, old_growth_spruce_taiga                                         |
 | Projectile Protection |      | Biome #is_forest                                                                             |
-| Protection            |      | Biome plains, sunflower plains, snowy plains, meadow, cherry_grove                           |
+| Protection            |      | Biome plains, sunflower_plains, snowy_plains, meadow, cherry_grove                           |
 | Punch                 |      | Biome windswept_hills, windswept_gravelly_hills, windswept_forest, small_end_islands         |
 | Quick Charge          |      | Biome the_end                                                                                |
 | Respiration           |      | Biome #is_ocean                                                                              |

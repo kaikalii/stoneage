@@ -1,0 +1,1 @@
+$function chalc:imbue/biome {biome:"$(biome)", req:low, chance:2, enchant:$(enchant), level:1}
