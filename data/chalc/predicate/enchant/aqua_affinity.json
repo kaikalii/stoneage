@@ -1,0 +1,17 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "structures": "monument"
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "biomes": "#is_river"
+            }
+        }
+    ]
+}

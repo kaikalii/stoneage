@@ -1,0 +1,17 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "biomes": "#is_beach"
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "structures": "trail_ruins"
+            }
+        }
+    ]
+}

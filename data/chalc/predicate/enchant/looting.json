@@ -1,0 +1,10 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "structures": [
+            "bastion_remnant",
+            "end_city",
+            "trial_chambers"
+        ]
+    }
+}
