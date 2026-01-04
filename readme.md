@@ -9,10 +9,11 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
 - No crafting of diamond weapons, tools, or armor
 - Iron equipment can be crafted, but iron ingots cannot be smelted - only found
 - Many smelting recipes require a **blast furnace**
-- **Overhauled enchanting system** to be based more exploration and less on random chance
+- **Overhauled the enchanting system** to be based more on exploration and less on random chance
 - Altered recipes for many things
 - Many recipes have been removed, but items can still be found in the world
 - Crafting changes mean that **copper is king**
+- **Buckets are removed**, as they are too magical
 
 The recipe book will help you with new recipes!
 
@@ -77,11 +78,11 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ## Added Recipes
 
-- Flint-tipped variants of wooden and stone swords, axes, and spears, which have Sharpness I
 - String from wool or carpets. Has diminishing returns.
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
 - Flower pots can be freely crafted to empty milk pots, which can be used to milk cows and goats in lieu of buckets.
 - Nametag
+- Enchantable books for the new enchanting system
 
 ## Other Changes
 
@@ -96,7 +97,6 @@ While these recipes are removed, most of the blocks and items can still be found
 
 ### Enchanting
 - Rather than at an enchanting table, all enchanting is now done through enchanted books
-- Enchantable books can be crafted with a book and various precious materials
 - Enchantable books can be imbued with enchantments by using them in different places
   - Different biomes give different enchantments
   - Some biomes can give multiple enchantments, some only one

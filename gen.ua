@@ -10,11 +10,8 @@
     "chestplate"
     "leggings"
     "boots"}
-   {"iron" "diamond"}
-   ♭⊞⍚$"_\__")
-
-  # From iron ingots
-  ⍚$"iron\__"{"block" "bars" "chain" "door" "trapdoor"}
+   ⍚$"diamond\__"
+  )
 
   # Ingot smelting
   (SmeltingOre ← ⊃(
