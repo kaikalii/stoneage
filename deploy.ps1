@@ -17,8 +17,8 @@ if ($WorldPath) {
 }
 
 # Add default Minecraft installation datapacks folder
-$defaultMinecraftDatapacks = Join-Path $env:APPDATA ".minecraft\datapacks\chalcolithic"
-$deployments += $defaultMinecraftDatapacks
+# $defaultMinecraftDatapacks = Join-Path $env:APPDATA ".minecraft\datapacks\chalcolithic"
+# $deployments += $defaultMinecraftDatapacks
 
 if ($deployments.Count -eq 0) {
     Write-Host "Error: No deployment targets." -ForegroundColor Red
