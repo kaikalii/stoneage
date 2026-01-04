@@ -1,4 +1,4 @@
-advancement revoke @s only chalc:use_raw_material
+advancement revoke @s only chalc:use/raw_material
 
 execute store result score @s chalc.levels run xp query @s levels
 execute if score @s chalc.levels matches 0 run return run title @s actionbar {text:"Not enough XP", color:red}

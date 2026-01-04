@@ -1,4 +1,4 @@
-advancement revoke @s only chalc:use_enchantable_book
+advancement revoke @s only chalc:use/enchantable_book
 
 execute unless score @s chalc.imbue_timer matches 0 run return run function chalc:do_nothing
 scoreboard players set @s chalc.imbue_timer 20
