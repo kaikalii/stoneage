@@ -13,7 +13,7 @@
             "custom_name": "Powerful Enchantable Book",
             "custom_data": {
                 "enchantable": true,
-                "max_level": 4
+                "max_level": 3
             },
             "item_model": "knowledge_book",
             "consumable": {

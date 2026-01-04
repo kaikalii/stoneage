@@ -12,7 +12,7 @@
             "custom_name": "Enchantable Book",
             "custom_data": {
                 "enchantable": true,
-                "max_level": 2
+                "max_level": 1
             },
             "consumable": {
                 "animation": "bundle",
