@@ -1,21 +1,22 @@
 # Description
 
-Chalcolithic is a datapack that lowers Minecraft's tech level and flattens progression.
+Chalcolithic is an overhaul datapack that lowers Minecraft's tech level and flattens progression.
 
 High-temperature metallurgy is a lost art, and neither the player nor villagers are capable of it. Advanced equipment and blocks can only be found in the ruins of ancient civilizations.
 
 # Quick Overview of Changes
 
-- No crafting of diamond weapons, tools, or armor
-- Iron equipment can be crafted, but iron ingots cannot be smelted - only found
-- Many smelting recipes require a **blast furnace**
-- **Overhauled the enchanting system** to be based more on exploration and less on random chance
-- Altered recipes for many things
 - Many recipes have been removed, but items can still be found in the world
-- Crafting changes mean that **copper is king**
+  - No crafting of diamond or netherite weapons, tools, or armor
+  - Iron equipment can be crafted, but iron ingots cannot be smelted - only found
+- Altered recipes for many things
+  - Many smelting recipes require a **blast furnace**, which has a new recipe itself
+  - Crafting changes mean that **copper is king**
+- **Overhauled the enchanting system** to be based more on exploration and less on random chance
 - **Buckets are removed**, as they are too magical
+- Much more!
 
-The recipe book will help you with new recipes!
+The recipe book will help you with new recipes! Advancements are also tweaked to help you progress.
 
 # Full List of Changes
 
@@ -90,6 +91,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Copper pickaxes can mine all blocks that iron pickaxes can
 - Village chests contain copper ingots and equipment where they once had iron
 - Village structures that generated with iron bars generate with copper bars
+- Woodland mansions that generated with iron doors generate with copper doors
 
 ### Iron
 - Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
@@ -107,12 +109,12 @@ While these recipes are removed, most of the blocks and items can still be found
   - Particles in the area show where a book was enchanted and indicate the cooldown
   - If a book was too recently enchanted nearby, particles will point to where that was
 - Enchanted books can be applied to equipment by holding the book in one hand and the equipment in the other and using the book. Armor must be held in the offhand to avoid equipping it instead.
-  - This does not work on iron, chainmail, diamond, or netherite gear.
-  - Mending cannot be applied to elytra
+  - This does not work on diamond or netherite gear.
+  - Mending can only be applied to items whose material the player is capable of crafting (so no elytra)
 - The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
 
 ### Repairing
-- Equipment can be repaired by holding a repair material in one hand and the equipment in the other and holding down the use button. Armor must be held in the offhand to avoid equipping it instead.
+- Equipment can be repaired by holding a corresponding repair material in one hand and the equipment in the other and holding down the use button. Armor must be held in the offhand to avoid equipping it instead.
 - Enchantments are not lost
 - Repair amount scales with the material as a fraction of the equipment's crafting recipe
 - Each bit of repair costs 1 level of experience
