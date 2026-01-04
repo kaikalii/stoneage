@@ -1,0 +1,1 @@
+scoreboard players set @e[type=marker,nbt={CustomName:"Enchantment Node"}] chalc.timer 1

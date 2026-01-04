@@ -1,6 +1,7 @@
 scoreboard objectives add chalc.timer dummy
 scoreboard objectives add chalc.levels dummy
 scoreboard objectives add chalc.y dummy
+scoreboard objectives add chalc.max_level dummy
 
 scoreboard objectives add chalc.level_req dummy
 scoreboard players set #low chalc.level_req 1

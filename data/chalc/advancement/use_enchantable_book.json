@@ -4,8 +4,7 @@
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
-                    "items": "book",
-                    "components": {
+                    "predicates": {
                         "custom_data": {
                             "enchantable": true
                         }

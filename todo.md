@@ -6,4 +6,3 @@
 - Require click release for imbuing books
 - Add remaining enchantments to imbuing system
 - Remove netherite upgrade and find a new use for scrap
-- Ensure anvils cannot be acquired
