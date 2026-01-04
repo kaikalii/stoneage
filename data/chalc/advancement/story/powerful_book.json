@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:story/mine_diamond",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": "Craft and imbue a powerful enchantable book",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:knowledge_book",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Place of Power"
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ]
+}

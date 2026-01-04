@@ -1,4 +1,3 @@
 # TODO
 
-- Fix vanilla advancements
-- Add new advancements
+- Add a way to get fish in buckets

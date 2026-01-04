@@ -16,7 +16,7 @@ function chalc:imbue/biome4 {enchant:breach, biome:"dark_forest"}
 function chalc:imbue/add_if1 {enchant:channeling, f:"if predicate chalc:enchant/channeling"}
 # TODO: Density
 function chalc:imbue/biome3 {enchant:depth_strider, biome:"#is_deep_ocean"}
-function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y <= #deepslate chalc unless biome ~ ~ ~ #chalc:underground"}
+function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y matches ..0 unless biome ~ ~ ~ #chalc:underground"}
 function chalc:imbue/biome5 {enchant:efficiency, biome:"nether_wastes"}
 function chalc:imbue/biome4 {enchant:feather_falling, biome:"#chalc:feather_falling"}
 function chalc:imbue/biome2 {enchant:fire_aspect, biome:"#is_svannah"}
@@ -45,7 +45,7 @@ function chalc:imbue/biome1 {enchant:silk_touch, biome:"warped_forest"}
 function chalc:imbue/biome5 {enchant:smite, biome:"#chalc:smite"}
 function chalc:imbue/biome5 {enchant:sweeping_edge, biome:"#chalc:sweeping_edge"}
 function chalc:imbue/biome5 {enchant:thorns, biome:"#is_jungle"}
-function chalc:imbue/add_if3 {enchant:unbreaking, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y >= #deepslate chalc if score @s chalc.y < #sea_level chalc unless biome ~ ~ ~ #chalc:underground"}
+function chalc:imbue/add_if3 {enchant:unbreaking, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y matches 0..62 unless biome ~ ~ ~ #chalc:underground"}
 function chalc:imbue/biome3 {enchant:unbreaking, biome:"stony_shore"}
 
 execute if score #cost chalc > @s chalc.levels run scoreboard players set #too_expensive chalc 1

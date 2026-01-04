@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:story/enchant_item",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": "Repair an enchanted item using its material",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:smithing_table"
+        },
+        "title": "Well-Maintained"
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ]
+}

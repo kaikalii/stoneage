@@ -1,1 +1,1 @@
-$execute if score @s chalc.levels >= #$(req) chalc.level_req if score @s chalc.max_level >= #$(level) chalc if function chalc:random/$(chance) $(f) run function chalc:imbue/add_enchantment {enchant:$(enchant), req:$(req), level:$(level)}
+$execute if score @s chalc.levels >= #$(req) chalc.level_req if score @s chalc.max_level matches $(level) if function chalc:random/$(chance) $(f) run function chalc:imbue/add_enchantment {enchant:$(enchant), req:$(req), level:$(level)}

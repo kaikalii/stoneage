@@ -10,7 +10,7 @@
     "result": {
         "id": "book",
         "components": {
-            "custom_name": "Esoteric Enchantable Book",
+            "custom_name": "Infernal Enchantable Book",
             "custom_data": {
                 "enchantable": true,
                 "max_level": 5

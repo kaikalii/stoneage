@@ -1,5 +1,5 @@
 {
-  "parent": "chalc:enchant_book",
+  "parent": "chalc:story/enchant_book",
   "criteria": {
     "manual": {
       "trigger": "impossible"

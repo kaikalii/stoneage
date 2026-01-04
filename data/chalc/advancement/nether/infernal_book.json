@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:nether/obtain_ancient_debris",
+    "criteria": {
+        "manual": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": "Craft and imbue an infernal enchantable book",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:written_book",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "title": "Potentia quinque"
+    },
+    "requirements": [
+        [
+            "manual"
+        ]
+    ]
+}

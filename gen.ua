@@ -58,7 +58,12 @@
    "enchanting_table"}
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "recipe/_.json"}
-{"story/laval_bucket" "story/shiny_gear"}
+{
+  "story/lava_bucket"
+  "story/shiny_gear"
+  "nether/netherite_armor"
+  "husbandry/obtain_netherite_hoe"
+}
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "advancement/_.json"}
 
 $$ {
