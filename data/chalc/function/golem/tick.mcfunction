@@ -1,7 +1,7 @@
 # Shears used
-execute as @a if score @s chalcolithic.shears > @s chalcolithic.last_shears run function chalc:golem/on_used
-execute as @a run scoreboard players operation @s chalcolithic.last_shears = @s chalcolithic.shears
+execute as @a if score @s chalc.shears > @s chalc.last_shears run function chalc:golem/on_used
+execute as @a run scoreboard players operation @s chalc.last_shears = @s chalc.shears
 
 # Carved pumpkin used
-execute as @a if score @s chalcolithic.carved_pumpkin > @s chalcolithic.last_carved_pumpkin run function chalc:golem/on_used
-execute as @a run scoreboard players operation @s chalcolithic.last_carved_pumpkin = @s chalcolithic.carved_pumpkin
+execute as @a if score @s chalc.carved_pumpkin > @s chalc.last_carved_pumpkin run function chalc:golem/on_used
+execute as @a run scoreboard players operation @s chalc.last_carved_pumpkin = @s chalc.carved_pumpkin
