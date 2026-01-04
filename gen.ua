@@ -172,3 +172,61 @@ $$         _
 $$     ]
 $$ }
 &fwa "data/chalc/tags/item/mending_not_allowed.json"
+
+# Repair tags
+Mats      ← {"wooden" "stone" "copper" "iron" "golden"}
+MatTags   ← ⊞⍚⊂ Mats {"1mat" "2mat" "3mat"}
+MatGroups ← ⊞◇(⍚⌞$"_\__") Mats {{"shovel" "spear"} {"hoe" "sword"} {"pickaxe" "axe"}}
+MatTags MatGroups
+≡≡(&fwa ⊓$"data/chalc/tags/item/_.json"(
+    /◇⊂₃",\n        "⍚$"\"_\""
+    $$ {
+    $$     "values": [
+    $$         _
+    $$     ]  
+    $$ }
+  ))
+
+{
+  [
+    RepairTool ← ⍚⌞₂(
+      ⟜₃(⌈÷⋅⋅⊙∘)
+      $"$execute if items entity @s weapon.$(material) _ if items entity @s weapon.$(equipment) #chalc:__mat run return _"
+    ) ⊙⊙(⇡₁3)
+    RepairTool "#planks" "wooden" 59
+    RepairTool "#stone_tool_materials" "stone" 131
+    RepairTool "copper_ingot" "copper" 190
+    RepairTool "iron_ingot" "iron" 250
+    RepairTool "gold_ingot" "golden" 32
+    RepairTool "copper_nugget" "copper" 190/4
+    RepairTool "iron_nugget" "iron" 250/9
+    RepairTool "gold_nugget" "golden" 32/9
+  ]
+  [
+    ArmorMat ← [5 8 7 4]
+    ArmorName ← {"helmet" "chestplate" "leggings" "boots"}
+    ArmorDur ← [1 16/11 15/11 13/11]
+    RepairArmor ← ⍚⌞₂(
+      ⊙⊙⊙(⌈÷⊙×)
+      $"$execute if items entity @s weapon.$(material) _ if items entity @s weapon.$(equipment) _\__ run return _"
+    ) ⊙⊙(ArmorName ArmorMat ArmorDur)
+    RepairArmor "leather" "leather" 55
+    RepairArmor "copper_ingot" "copper" 176
+    RepairArmor "iron_ingot" "iron" 165
+    RepairArmor "iron_ingot" "chainmail" 165
+  ]
+  {
+    RepairOther ← $"$execute if items entity @s weapon.$(material) _ if items entity @s weapon.$(equipment) _ run return _"
+    RepairOther "#planks" "shield" 336/6
+    RepairOther "turtle_scute" "turtle_helmet" 275/5
+    RepairOther "phantom_membrane" "elytra" 432/3
+    RepairOther "armadillo_scute" "wolf_armor" ⌈64/6
+    RepairOther "breeze_rod" "mace" 500/10
+  }
+}
+/◇⊂₃"\n\n"♭⍚(/◇⊂₃"\n"♭)
+
+˜⊂$$ 
+  $$ 
+  $$ return 0
+&fwa "data/chalc/function/repair/repair_amount.mcfunction"

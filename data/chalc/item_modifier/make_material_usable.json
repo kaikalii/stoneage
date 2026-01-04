@@ -1,0 +1,16 @@
+{
+    "function": "set_components",
+    "components": {
+        "consumable": {
+            "animation": "brush",
+            "consume_seconds": 1000,
+            "has_consume_particles": true
+        },
+        "use_effects": {
+            "speed_multiplier": 0.05
+        },
+        "custom_data": {
+            "repair": true
+        }
+    }
+}

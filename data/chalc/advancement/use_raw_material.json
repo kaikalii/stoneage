@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "repair": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "chalc:repair/use"
+    }
+}

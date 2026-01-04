@@ -102,6 +102,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Some biomes can give multiple enchantments, some only one
   - Enchanting a book costs levels equal to the sum of the resulting enchantment levels
   - Higher total levels allow for stronger enchantments
+  - Stronger enchantments require higher tiered enchantable books, which are a new sink for valuable materials like diamond and netherite
   - Enchanting a book absorbs magic from the environment, and additional books cannot be enchanted nearby until a period of time has passed
   - Particles in the area show where a book was enchanted and indicate the cooldown
   - If a book was too recently enchanted nearby, particles will point to where that was
@@ -109,6 +110,13 @@ While these recipes are removed, most of the blocks and items can still be found
   - This does not work on iron, chainmail, diamond, or netherite gear.
   - Mending cannot be applied to elytra
 - The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
+
+### Repairing
+- Equipment can be repaired by holding a repair material in one hand and the equipment in the other and holding down the use button. Armor must be held in the offhand to avoid equipping it instead.
+- Enchantments are not lost
+- Repair amount scales with the material as a fraction of the equipment's crafting recipe
+- Each bit of repair costs 1 level of experience
+- Diamond gear cannot be repaired
 
 ### Nametags
 - Nametags can be used on a sign to change the name
