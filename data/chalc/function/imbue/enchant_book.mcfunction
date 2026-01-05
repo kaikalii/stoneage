@@ -1,5 +1,5 @@
 # Spawn node
-execute unless function chalc:imbue/try_spawn_node run return run function chalc:do_nothing
+execute unless function chalc:imbue/try_spawn_node run return 0
 # Give advancements
 advancement grant @s only chalc:story/enchant_book
 execute if items entity @s weapon.mainhand book[custom_data~{max_level:3b}] run advancement grant @s only chalc:story/powerful_book

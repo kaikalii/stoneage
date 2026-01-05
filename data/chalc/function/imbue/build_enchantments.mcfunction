@@ -1,6 +1,6 @@
 # Limit tries
 execute if score #tries chalc matches 0 if score #too_expensive chalc matches 1 run return run function chalc:imbue/not_enough_xp
-execute if score #tries chalc matches 0 run return run function chalc:do_nothing
+execute if score #tries chalc matches 0 run return 0
 scoreboard players remove #tries chalc 1
 
 data remove storage chalc:imbue enchantments

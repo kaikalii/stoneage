@@ -1,11 +1,11 @@
 
 # Get current damage
 $execute store result score #damage chalc run data get entity @s $(equipment_path).components.minecraft:damage
-execute if score #damage chalc matches 0 run return run function chalc:do_nothing
+execute if score #damage chalc matches 0 run return 0
 
 # Get repair amount
 $execute store result score #repair_amount chalc run function chalc:repair/repair_amount {material:$(material), equipment:$(equipment)}
-execute if score #repair_amount chalc matches 0 run return run function chalc:do_nothing
+execute if score #repair_amount chalc matches 0 run return 0
 
 # Handle repair timer
 execute if score @s chalc.repair_timer matches 0 run playsound block.anvil.use block @a ^-0.5 ^1 ^1
@@ -13,7 +13,7 @@ scoreboard players add @s chalc.repair_timer 2
 execute if score @s chalc.repair_timer matches 5 run function chalc:repair/effect
 execute if score @s chalc.repair_timer matches 13 run function chalc:repair/effect
 execute if score @s chalc.repair_timer matches 21 run function chalc:repair/effect
-execute unless score @s chalc.repair_timer matches 24.. run return run function chalc:do_nothing
+execute unless score @s chalc.repair_timer matches 24.. run return 0
 
 # Calculate new damage and repair
 scoreboard players operation #damage chalc -= #repair_amount chalc

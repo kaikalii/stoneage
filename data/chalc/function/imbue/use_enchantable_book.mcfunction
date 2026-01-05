@@ -1,8 +1,8 @@
 advancement revoke @s only chalc:use/enchantable_book
 
-execute unless data entity @s SelectedItem.components."minecraft:custom_data".enchantable unless data entity @s equipment.offhand.components."minecraft:custom_data".enchantable run return run function chalc:do_nothing
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".enchantable unless data entity @s equipment.offhand.components."minecraft:custom_data".enchantable run return 0
 
-execute unless score @s chalc.imbue_timer matches 0 run return run function chalc:do_nothing
+execute unless score @s chalc.imbue_timer matches 0 run return 0
 scoreboard players set @s chalc.imbue_timer 20
 
 scoreboard players set #tries chalc 10
