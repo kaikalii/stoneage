@@ -1,0 +1,9 @@
+{
+    "values": [
+        "nether_wastes",
+        {
+            "id": "clifftree:caves",
+            "required": false
+        }
+    ]
+}

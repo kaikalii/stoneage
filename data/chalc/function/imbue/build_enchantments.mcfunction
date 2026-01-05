@@ -17,7 +17,7 @@ function chalc:imbue/add_if1 {enchant:channeling, f:"if predicate chalc:enchant/
 # TODO: Density
 function chalc:imbue/biome3 {enchant:depth_strider, biome:"#is_deep_ocean"}
 function chalc:imbue/add_if5 {enchant:efficiency, f:"if dimension overworld unless block ~ ~ ~ water if score @s chalc.y matches ..0 unless biome ~ ~ ~ #chalc:underground"}
-function chalc:imbue/biome5 {enchant:efficiency, biome:"nether_wastes"}
+function chalc:imbue/biome5 {enchant:efficiency, biome:"#efficiency"}
 function chalc:imbue/biome4 {enchant:feather_falling, biome:"#chalc:feather_falling"}
 function chalc:imbue/biome2 {enchant:fire_aspect, biome:"#is_svannah"}
 function chalc:imbue/biome4 {enchant:fire_protection, biome:"basalt_deltas"}
