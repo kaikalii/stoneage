@@ -7,21 +7,9 @@ $execute if items entity @s weapon.$(material) #stone_tool_materials if items en
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) #chalc:copper1mat run return 190
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) #chalc:copper2mat run return 95
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) #chalc:copper3mat run return 64
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) #chalc:iron1mat run return 250
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) #chalc:iron2mat run return 125
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) #chalc:iron3mat run return 84
 $execute if items entity @s weapon.$(material) gold_ingot if items entity @s weapon.$(equipment) #chalc:golden1mat run return 32
 $execute if items entity @s weapon.$(material) gold_ingot if items entity @s weapon.$(equipment) #chalc:golden2mat run return 16
 $execute if items entity @s weapon.$(material) gold_ingot if items entity @s weapon.$(equipment) #chalc:golden3mat run return 11
-$execute if items entity @s weapon.$(material) copper_nugget if items entity @s weapon.$(equipment) #chalc:copper1mat run return 48
-$execute if items entity @s weapon.$(material) copper_nugget if items entity @s weapon.$(equipment) #chalc:copper2mat run return 24
-$execute if items entity @s weapon.$(material) copper_nugget if items entity @s weapon.$(equipment) #chalc:copper3mat run return 16
-$execute if items entity @s weapon.$(material) iron_nugget if items entity @s weapon.$(equipment) #chalc:iron1mat run return 28
-$execute if items entity @s weapon.$(material) iron_nugget if items entity @s weapon.$(equipment) #chalc:iron2mat run return 14
-$execute if items entity @s weapon.$(material) iron_nugget if items entity @s weapon.$(equipment) #chalc:iron3mat run return 10
-$execute if items entity @s weapon.$(material) gold_nugget if items entity @s weapon.$(equipment) #chalc:golden1mat run return 4
-$execute if items entity @s weapon.$(material) gold_nugget if items entity @s weapon.$(equipment) #chalc:golden2mat run return 2
-$execute if items entity @s weapon.$(material) gold_nugget if items entity @s weapon.$(equipment) #chalc:golden3mat run return 2
 
 $execute if items entity @s weapon.$(material) leather if items entity @s weapon.$(equipment) leather_helmet run return 11
 $execute if items entity @s weapon.$(material) leather if items entity @s weapon.$(equipment) leather_chestplate run return 10
@@ -31,14 +19,6 @@ $execute if items entity @s weapon.$(material) copper_ingot if items entity @s w
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) copper_chestplate run return 32
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) copper_leggings run return 35
 $execute if items entity @s weapon.$(material) copper_ingot if items entity @s weapon.$(equipment) copper_boots run return 52
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) iron_helmet run return 33
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) iron_chestplate run return 30
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) iron_leggings run return 33
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) iron_boots run return 49
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) chainmail_helmet run return 33
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) chainmail_chestplate run return 30
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) chainmail_leggings run return 33
-$execute if items entity @s weapon.$(material) iron_ingot if items entity @s weapon.$(equipment) chainmail_boots run return 49
 
 $execute if items entity @s weapon.$(material) #planks if items entity @s weapon.$(equipment) shield run return 56
 $execute if items entity @s weapon.$(material) turtle_scute if items entity @s weapon.$(equipment) turtle_helmet run return 55

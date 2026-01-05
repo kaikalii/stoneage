@@ -94,7 +94,7 @@ RecipePath ← $"data/minecraft/recipe/_.json"
     $$   "type": "minecraft:crafting\_shapeless",
     $$   "category": "equipment",
     $$   "ingredients": [
-    $$     ["minecraft:raw\_iron", "minecraft:iron\_ingot"],
+    $$     "minecraft:raw\_iron",
     $$     "minecraft:flint"_
     $$   ],
     $$   "result": {
@@ -148,9 +148,9 @@ $$ _
 
 # not_enchantable tag
 {"pickaxe" "axe" "shovel" "hoe" "sword" "spear"}
-{"diamond" "netherite"}
+{"iron" "diamond" "netherite"}
 {"helmet" "chestplate" "leggings" "boots"}
-{"diamond" "netherite"}
+{"iron" "chainmail" "diamond" "netherite"}
 ⊂∩(♭⊞⍚$"\"_\__\"")
 /◇⊂₃",\n        "
 $$ {
@@ -160,23 +160,8 @@ $$     ]
 $$ }
 &fwa "data/chalc/tags/item/not_enchantable.json"
 
-# mending_not_allowed tag
-{"pickaxe" "axe" "shovel" "hoe" "sword" "spear"}
-{"iron"}
-{"helmet" "chestplate" "leggings" "boots"}
-{"chainmail" "iron"}
-⊂∩(♭⊞⍚$"\"_\__\"")
-⊂ □$"\"elytra\""
-/◇⊂₃",\n        "
-$$ {
-$$     "values": [
-$$         _
-$$     ]
-$$ }
-&fwa "data/chalc/tags/item/mending_not_allowed.json"
-
 # Repair tags
-Mats      ← {"wooden" "stone" "copper" "iron" "golden"}
+Mats      ← {"wooden" "stone" "copper" "golden"}
 MatTags   ← ⊞⍚⊂ Mats {"1mat" "2mat" "3mat"}
 MatGroups ← ⊞◇(⍚⌞$"_\__") Mats {{"shovel" "spear"} {"hoe" "sword"} {"pickaxe" "axe"}}
 MatTags MatGroups
@@ -198,11 +183,7 @@ MatTags MatGroups
     RepairTool "#planks" "wooden" 59
     RepairTool "#stone_tool_materials" "stone" 131
     RepairTool "copper_ingot" "copper" 190
-    RepairTool "iron_ingot" "iron" 250
     RepairTool "gold_ingot" "golden" 32
-    RepairTool "copper_nugget" "copper" 190/4
-    RepairTool "iron_nugget" "iron" 250/9
-    RepairTool "gold_nugget" "golden" 32/9
   ]
   [
     ArmorMat ← [5 8 7 4]
@@ -214,8 +195,6 @@ MatTags MatGroups
     ) ⊙⊙(ArmorName ArmorMat ArmorDur)
     RepairArmor "leather" "leather" 55
     RepairArmor "copper_ingot" "copper" 176
-    RepairArmor "iron_ingot" "iron" 165
-    RepairArmor "iron_ingot" "chainmail" 165
   ]
   {
     RepairOther ← $"$execute if items entity @s weapon.$(material) _ if items entity @s weapon.$(equipment) _ run return _"

@@ -6,9 +6,8 @@ High-temperature metallurgy is a lost art, and neither the player nor villagers 
 
 # Quick Overview of Changes
 
-- Many recipes have been removed, but items can still be found in the world
-  - No crafting of diamond or netherite weapons, tools, or armor
-  - Iron equipment can be crafted, but iron ingots cannot be smelted - only found
+- Many recipes have been removed, but some items can still be found in the world
+  - No crafting of iron, diamond, or netherite weapons, tools, or armor
 - Altered recipes for many things
   - Many smelting recipes require a **blast furnace**, which has a new recipe itself
   - Crafting changes mean that **copper is king**
@@ -26,15 +25,12 @@ While these recipes are removed, most of the blocks and items can still be found
 
 - Iron smelting and blasting
 - Copper and gold smelting
-- Iron and diamond swords, tools, and armor
+- Iron, diamond, and netherite swords, tools, and armor
 - Iron and netherite armor trimming
 - Smelting recipes for ore blocks
 - Anvil
 - Minecart
-- Rail
-- Activator Rail
-- Detector Rail
-- Powered Rail
+- All rails
 - Piston
 - Hopper
 - Crafter
@@ -50,7 +46,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - Nether gold ores drop 1-3 nuggets (down from 1-4)
 - Glass requires a blast furnace
 - Glazed terracotta requires a blast furnace
-- Many recipes that take string can take other items that are used to tie things:
+- Many recipes that take string take other items that are used to tie things:
   - String
   - Vines
   - Weeping Vines
@@ -60,8 +56,8 @@ While these recipes are removed, most of the blocks and items can still be found
 - Some recipes that previously required an ingot require either a tie item or a sticky item:
   - Brush
   - Saddle
-- Flint and Steel can use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
-- Shields and crossbows can be crafted with a copper ingot instead of iron.
+- Flint and Steel use raw iron instead of an ingot, but it requires kindling in the form of sticks. The more sticks added to the recipe, the higher the durability.
+- Shields, crossbows, and buckets are crafted with a copper ingot instead of iron.
 - Completely overhauled the recipes for:
   - Blast Furnace
   - Shears
@@ -91,14 +87,14 @@ While these recipes are removed, most of the blocks and items can still be found
 - Woodland mansions that generated with iron doors generate with copper doors
 
 ### Iron
-- Iron cannot be smelted in any way, but ingots and equipment can still be found.
+- Iron cannot be smelted in any way, but raw iron has some uses.
 - Iron golems are *clay* golems. They are made in the normal shape, but with clay blocks instead of iron blocks. The clay must be surrounded by mud. Clay golems drop clay balls instead of iron ingots.
 
 ### Enchanting
 - Rather than at an enchanting table, all enchanting is now done through enchanted books
 - Enchantable books can be imbued with enchantments by using them in different places
   - Different biomes give different enchantments
-  - Some biomes can give multiple enchantments, some only one
+  - Some biomes give multiple enchantments, some only one
   - Enchanting a book costs levels equal to the sum of the resulting enchantment levels
   - Higher total levels allow for stronger enchantments
   - Stronger enchantments require higher tiered enchantable books, which are a new sink for valuable materials like diamond and netherite
@@ -107,7 +103,7 @@ While these recipes are removed, most of the blocks and items can still be found
   - If a book was too recently enchanted nearby, particles will point to where that was
 - Enchanted books can be applied to equipment by holding the book in one hand and the equipment in the other and using the book. Armor must be held in the offhand to avoid equipping it instead.
   - This does not work on diamond or netherite gear.
-  - Mending can only be applied to items whose material the player is capable of crafting (so no elytra)
+  - Mending cannot be applied to elytra
 - The new *Darksight* enchantment for helmets shows blocks that are dark enough for mobs to spawn
 
 ### Repairing
@@ -115,7 +111,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Enchantments are not lost
 - Repair amount scales with the material as a fraction of the equipment's crafting recipe
 - Each bit of repair costs 1 level of experience
-- Diamond gear cannot be repaired
+- Iron and diamond gear cannot be repaired
 
 ### Buckets
 - Water and lava buckets can place source blocks, but they will quickly disappear.

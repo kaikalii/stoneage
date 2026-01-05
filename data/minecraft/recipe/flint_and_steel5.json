@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "equipment",
   "ingredients": [
-    ["minecraft:raw_iron", "minecraft:iron_ingot"],
+    "minecraft:raw_iron",
     "minecraft:flint","minecraft:stick","minecraft:stick","minecraft:stick","minecraft:stick","minecraft:stick"
   ],
   "result": {

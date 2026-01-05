@@ -3,10 +3,7 @@
   "category": "equipment",
   "key": {
     "G": "minecraft:glass",
-    "#": [
-      "minecraft:raw_iron",
-      "minecraft:iron_ingot"
-    ],
+    "#": "minecraft:raw_iron",
     "R": "minecraft:redstone",
     "S": "minecraft:stick",
     "N": "#chalc:affix"
