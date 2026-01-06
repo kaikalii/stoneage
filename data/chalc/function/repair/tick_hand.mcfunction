@@ -1,7 +1,3 @@
-# Check that the player even has XP
-execute store result score @s chalc.levels run xp query @s levels
-execute if score @s chalc.levels matches 0 run return 0
-
 # Check that the item in the other hand is damaged
 scoreboard players set #damage chalc 0
 $execute store result score #damage chalc run data get entity @s $(equipment_path).components."minecraft:damage"
