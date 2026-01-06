@@ -60,6 +60,7 @@
   "story/shiny_gear"
   "nether/netherite_armor"
   "husbandry/obtain_netherite_hoe"
+  "adventure/crafters_crafting_crafters"
 }
 /◇⊂₃",\n      "⍚$$ {"namespace": "minecraft", "path": "advancement/_.json"}
 

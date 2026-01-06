@@ -1,1 +1,0 @@
-$loot insert ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:item,name:"$(id)",functions:[{function:set_count,count:$(count)}, {function:set_components,components:$(components)}]}]}]}
