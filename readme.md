@@ -121,6 +121,8 @@ While these recipes are removed, most of the blocks and items can still be found
 - Nametags can be used on a sign to change the name
 - Nametags can be applied to equipment by holding the nametag in one hand and the equipment in the other and using the nametag. Armor must be held in the offhand to avoid equipping it instead.
 
-### Mechanics
+### Items
+- Copper trapdoors drain items from containers if placed on the side or underneath
+- Copper golems can now pick up items from the ground and sort them
 - Composters now automatically compost items dropped inside them
 - Torches thrown from a player's inventory will automatically place as blocks when touching the ground.

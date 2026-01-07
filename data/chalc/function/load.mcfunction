@@ -6,3 +6,4 @@ function chalc:imbue/load
 function chalc:repair/load
 function chalc:bucket/load
 function chalc:fill/load
+function chalc:drain/load

@@ -1,23 +1,23 @@
 {
-    "parent": "chalc:adventure/drain_container",
+    "parent": "minecraft:adventure/root",
     "criteria": {
         "manual": {
             "trigger": "impossible"
         }
     },
     "display": {
-        "description": "Drop an item into a propped-open barrel",
+        "description": "Use a copper trapdoor to drain a container",
         "icon": {
             "count": 1,
-            "id": "minecraft:barrel",
+            "id": "minecraft:copper_trapdoor",
             "components": {
                 "block_state": {
-                    "facing": "up",
+                    "facing": "east",
                     "open": "true"
                 }
             }
         },
-        "title": "Hopper? I hardly know her!"
+        "title": "There's a hole in it"
     },
     "requirements": [
         [
