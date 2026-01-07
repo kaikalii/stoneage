@@ -6,7 +6,8 @@
   - Finding chunk borders
   - Aesthetic
 - Vegetarian leather armor
-- Uses for raw iron blocks
 - Uses for pitcher pod and torch flower
 - More design for item collection
-- Shelf Pipes!?!?!
+- Uses for raw iron blocks
+  - Shelf Pipes!?!?!
+- Improve enchantments on gold
