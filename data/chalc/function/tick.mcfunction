@@ -8,6 +8,7 @@ function chalc:imbue/tick
 function chalc:repair/tick
 function chalc:bucket/tick
 function chalc:fill/tick
+function chalc:drain/tick
 function chalc:copper_golem/tick
 
 # Make spash bottle have water effect
