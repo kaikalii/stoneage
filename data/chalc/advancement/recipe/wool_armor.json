@@ -1,0 +1,88 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_wool": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#wool"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_wool"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "chalc:wool/helmet_white",
+            "chalc:wool/helmet_orange",
+            "chalc:wool/helmet_magenta",
+            "chalc:wool/helmet_light_blue",
+            "chalc:wool/helmet_yellow",
+            "chalc:wool/helmet_lime",
+            "chalc:wool/helmet_pink",
+            "chalc:wool/helmet_gray",
+            "chalc:wool/helmet_light_gray",
+            "chalc:wool/helmet_cyan",
+            "chalc:wool/helmet_purple",
+            "chalc:wool/helmet_blue",
+            "chalc:wool/helmet_brown",
+            "chalc:wool/helmet_green",
+            "chalc:wool/helmet_red",
+            "chalc:wool/helmet_black",
+            "chalc:wool/chestplate_white",
+            "chalc:wool/chestplate_orange",
+            "chalc:wool/chestplate_magenta",
+            "chalc:wool/chestplate_light_blue",
+            "chalc:wool/chestplate_yellow",
+            "chalc:wool/chestplate_lime",
+            "chalc:wool/chestplate_pink",
+            "chalc:wool/chestplate_gray",
+            "chalc:wool/chestplate_light_gray",
+            "chalc:wool/chestplate_cyan",
+            "chalc:wool/chestplate_purple",
+            "chalc:wool/chestplate_blue",
+            "chalc:wool/chestplate_brown",
+            "chalc:wool/chestplate_green",
+            "chalc:wool/chestplate_red",
+            "chalc:wool/chestplate_black",
+            "chalc:wool/leggings_white",
+            "chalc:wool/leggings_orange",
+            "chalc:wool/leggings_magenta",
+            "chalc:wool/leggings_light_blue",
+            "chalc:wool/leggings_yellow",
+            "chalc:wool/leggings_lime",
+            "chalc:wool/leggings_pink",
+            "chalc:wool/leggings_gray",
+            "chalc:wool/leggings_light_gray",
+            "chalc:wool/leggings_cyan",
+            "chalc:wool/leggings_purple",
+            "chalc:wool/leggings_blue",
+            "chalc:wool/leggings_brown",
+            "chalc:wool/leggings_green",
+            "chalc:wool/leggings_red",
+            "chalc:wool/leggings_black",
+            "chalc:wool/boots_white",
+            "chalc:wool/boots_orange",
+            "chalc:wool/boots_magenta",
+            "chalc:wool/boots_light_blue",
+            "chalc:wool/boots_yellow",
+            "chalc:wool/boots_lime",
+            "chalc:wool/boots_pink",
+            "chalc:wool/boots_gray",
+            "chalc:wool/boots_light_gray",
+            "chalc:wool/boots_cyan",
+            "chalc:wool/boots_purple",
+            "chalc:wool/boots_blue",
+            "chalc:wool/boots_brown",
+            "chalc:wool/boots_green",
+            "chalc:wool/boots_red",
+            "chalc:wool/boots_black"
+        ]
+    }
+}

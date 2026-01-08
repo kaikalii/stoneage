@@ -244,9 +244,8 @@ MatTags MatGroups
 }
 ⍉⊟₃
 ⊞(⊓°□₃°□₂
-  &fwa ⊃(
-    ⋅⊙⋅⋅∘
-    $"data/chalc/recipe/wool/_\__.json"
+  ⊃(⋅⊙⋅⋅∘
+    $"wool/_\__"
   | ⊃(⊙⋅⋅⋅∘|⋅⟜⊙⊙∘)
     $$ {
     $$     "type": "minecraft:crafting\_shaped",
@@ -276,4 +275,34 @@ MatTags MatGroups
     $$     }
     $$ }
   )
+  ⊃(□$$ "chalc:_"
+  | &fwa $$ data/chalc/recipe/_.json
+  )
 )
+/◇⊂₃",\n            "♭
+$$ {
+$$     "parent": "minecraft:recipes/root",
+$$     "criteria": {
+$$         "has\_wool": {
+$$             "conditions": {
+$$                 "items": [
+$$                     {
+$$                         "items": "#wool"
+$$                     }
+$$                 ]
+$$             },
+$$             "trigger": "minecraft:inventory\_changed"
+$$         }
+$$     },
+$$     "requirements": [
+$$         [
+$$             "has\_wool"
+$$         ]
+$$     ],
+$$     "rewards": {
+$$         "recipes": [
+$$             _
+$$         ]
+$$     }
+$$ }
+&fwa "data/chalc/advancement/recipe/wool_armor.json"
