@@ -77,6 +77,9 @@ While these recipes are removed, most of the blocks and items can still be found
 - Water bottles can be freely crafted to and from splash water bottles. These can be used to extinguish fires but cannot be used in brewing recipes for other splash potions.
 - Nametag
 - Enchantable books for the new enchanting system
+- Wool clothing
+  - Must be crafted from the same wool color
+  - +4 armor total from a full set (compared to +7 from full leather)
 
 ## Other Changes
 
@@ -122,7 +125,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Nametags can be used on a sign to change the name
 - Nametags can be applied to equipment by holding the nametag in one hand and the equipment in the other and using the nametag. Armor must be held in the offhand to avoid equipping it instead.
 
-### Items
+### Items and Automation
 - Copper trapdoors drain items from containers if placed on the side or underneath
 - Copper golems can now pick up items from the ground and sort them
 - Composters now automatically compost items dropped inside them

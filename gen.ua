@@ -220,3 +220,60 @@ MatTags MatGroups
 ⊂{"# This file is generated""playsound block.composter.fill_success block @a"}
 /◇⊂₃@\n
 &fwa "data/chalc/function/fill/increase.mcfunction"
+
+# Wool clothing recipes
+{"white" "orange" "magenta" "light_blue" "yellow" "lime" "pink" "gray" "light_gray" "cyan" "purple" "blue" "brown" "green" "red" "black"}
+[16383998 16351261 13061821 3847130 16701501 8439583 15961002 4673362 10329495 1481884 8991416 3949738 8606770 6192150 11546150 1908001]
+⍉⊟
+{"Hat" "Shirt" "Pants" "Shoes"}
+{"helmet" "chestplate" "leggings" "boots"}
+{
+  $         "###",
+  $         "# #"
+
+  $         "# #",
+  $         "###",
+  $         "###"
+
+  $         "###",
+  $         "# #",
+  $         "# #"
+
+  $         "# #",
+  $         "# #"
+}
+⍉⊟₃
+⊞(⊓°□₃°□₂
+  &fwa ⊃(
+    ⋅⊙⋅⋅∘
+    $"data/chalc/recipe/wool/_\__.json"
+  | ⊃(⊙⋅⋅⋅∘|⋅⟜⊙⊙∘)
+    $$ {
+    $$     "type": "minecraft:crafting\_shaped",
+    $$     "category":"equipment",
+    $$     "pattern": [
+    $$ _
+    $$     ],
+    $$     "key": {
+    $$         "#": "_\_wool"
+    $$     },
+    $$     "group": "wool\__",
+    $$     "result": {
+    $$         "id": "leather\__",
+    $$         "components": {
+    $$             "custom\_name": "Wool _",
+    $$             "dyed\_color": _,
+    $$             "attribute\_modifiers": [
+    $$                 {
+    $$                     "type": "armor",
+    $$                     "operation": "add\_value",
+    $$                     "id": "chalc:wool\_armor",
+    $$                     "amount": 1,
+    $$                     "slot": "any"
+    $$                 }
+    $$             ]
+    $$         }
+    $$     }
+    $$ }
+  )
+)

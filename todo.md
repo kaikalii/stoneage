@@ -5,6 +5,6 @@
   - Finding height
   - Finding chunk borders
   - Aesthetic
-- Vegetarian leather armor
 - Uses for pitcher pod and torch flower
 - Uses for raw iron blocks
+- Way to temporarily get netherite
