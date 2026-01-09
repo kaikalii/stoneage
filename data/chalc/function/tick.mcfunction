@@ -1,5 +1,4 @@
 function chalc:replace_trades/tick
-function chalc:golem/tick
 function chalc:enchant/tick
 function chalc:nametag/tick
 function chalc:throw/tick
