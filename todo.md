@@ -7,3 +7,4 @@
   - Aesthetic
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
+- Use tags for different nodes
