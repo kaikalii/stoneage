@@ -8,3 +8,4 @@ function chalc:fill/load
 
 function chalc:copper_golem/update
 function chalc:drain/update
+function chalc:darksight/update
