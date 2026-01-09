@@ -32,3 +32,11 @@ execute as @s[nbt={data:{miner:2}}] run effect give @a[distance=..10] haste 2 1
 execute as @s[nbt={data:{miner:3}}] run effect give @a[distance=..15] haste 2 1
 execute as @s[nbt={data:{miner:4}}] run effect give @a[distance=..20] haste 2 1
 
+execute as @s[nbt={data:{angler:1}}] if predicate chalc:clear run tag @s add clear_weather
+execute as @s[nbt={data:{angler:1}}] run weather rain
+execute as @s[nbt={data:{angler:2}}] if predicate chalc:clear run tag @s add clear_weather
+execute as @s[nbt={data:{angler:2}}] run weather thunder
+execute as @s[nbt={data:{angler:3}}] if predicate chalc:clear run tag @s add clear_weather
+execute as @s[nbt={data:{angler:3}}] run weather thunder
+execute as @s[nbt={data:{angler:4}}] if predicate chalc:clear run tag @s add clear_weather
+execute as @s[nbt={data:{angler:4}}] run weather thunder
