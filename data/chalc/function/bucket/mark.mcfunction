@@ -1,2 +1,2 @@
-$summon marker ~ ~ ~ {CustomName:"$(fluid) Node"}
-$scoreboard players set @n[type=marker,nbt={CustomName:"$(fluid) Node"}] chalc.fluid_timer $(time)
+$summon marker ~ ~ ~ {Tags:["$(fluid)_node"]}
+$scoreboard players set @n[type=marker,tag=$(fluid)_node] chalc.fluid_timer $(time)
