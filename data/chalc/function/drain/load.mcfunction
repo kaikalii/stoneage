@@ -1,1 +1,0 @@
-scoreboard players set #drain_timer chalc 0
