@@ -41,7 +41,7 @@ execute as @s[nbt={data:{angler:3}}] run weather thunder
 execute as @s[nbt={data:{angler:4}}] if predicate chalc:clear run tag @s add clear_weather
 execute as @s[nbt={data:{angler:4}}] run weather thunder
 
-execute as @s[nbt={data:{skull:1}}] run function chalc:pot/effect/modify_gear {range:5}
-execute as @s[nbt={data:{skull:2}}] run function chalc:pot/effect/modify_gear {range:10}
-execute as @s[nbt={data:{skull:3}}] run function chalc:pot/effect/modify_gear {range:15}
-execute as @s[nbt={data:{skull:4}}] run function chalc:pot/effect/modify_gear {range:20}
+execute as @s[nbt={data:{skull:1}}] as @a[distance=..5] at @s run function chalc:pot/effect/upgrade_gear
+execute as @s[nbt={data:{skull:2}}] as @a[distance=..10] at @s run function chalc:pot/effect/upgrade_gear
+execute as @s[nbt={data:{skull:3}}] as @a[distance=..15] at @s run function chalc:pot/effect/upgrade_gear
+execute as @s[nbt={data:{skull:4}}] as @a[distance=..20] at @s run function chalc:pot/effect/upgrade_gear

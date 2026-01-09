@@ -1,3 +1,4 @@
-function chalc:pot/remove_all_effects
+# Clear weather
+execute as @s[tag=clear_weather] run weather clear
 
 kill @s
