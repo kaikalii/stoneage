@@ -118,6 +118,7 @@ While these recipes are removed, most of the blocks and items can still be found
 - Iron and diamond gear cannot be repaired
 
 ### Buckets
+- Buckets are crafted with copper and their textures are changed accordingly
 - Water and lava buckets can place source blocks, but they will quickly disappear.
 - Placing a water or lava bucket (including fish buckets) in a dispenser will leak the contents.
 
