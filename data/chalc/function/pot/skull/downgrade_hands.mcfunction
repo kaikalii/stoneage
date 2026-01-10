@@ -1,0 +1,12 @@
+$function chalc:pot/skull/slot {slot:weapon.mainhand,path:SelectedItem,item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:weapon.offhand,path:equipment.offhand,item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.0,path:"Inventory[{Slot:0b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.1,path:"Inventory[{Slot:1b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.2,path:"Inventory[{Slot:2b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.3,path:"Inventory[{Slot:3b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.4,path:"Inventory[{Slot:4b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.5,path:"Inventory[{Slot:5b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.6,path:"Inventory[{Slot:6b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.7,path:"Inventory[{Slot:7b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.8,path:"Inventory[{Slot:8b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}
+$function chalc:pot/skull/slot {slot:hotbar.9,path:"Inventory[{Slot:9b}]",item:$(item),from:netherite,to:golden,from_dur:2032,to_dur:32}

@@ -312,7 +312,7 @@ $$ }
   (
     {"oak""birch""spruce""jungle""acacia""dark_oak""pale_oak""cherry"}
     ⊃(⍚˙$"execute if block ~ ~ ~ _\_sapling[stage=0] run return run setblock ~ ~ ~ _\_sapling[stage=1]"
-    | ⍚˙$"execute if block ~ ~ ~ _\_sapling[stage=1] run return run function chalc:pot/effect/grow\_sapling {tree:_}")
+    | ⍚˙$"execute if block ~ ~ ~ _\_sapling[stage=1] run return run function chalc:pot/sheaf/grow\_sapling {tree:_}")
   )
   (
     ⍉⊟⤙+1 ⇡3
@@ -324,4 +324,4 @@ $$ }
 }
 ⊂□"particle composter ~ ~0.2 ~ 0.2 0.2 0.2 0 3"
 /◇⊂₃@\n
-&fwa "data/chalc/function/pot/effect/grow_plant.mcfunction"
+&fwa "data/chalc/function/pot/sheaf/grow_plant.mcfunction"

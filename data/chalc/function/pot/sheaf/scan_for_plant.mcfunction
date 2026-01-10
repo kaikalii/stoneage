@@ -6,5 +6,5 @@ $execute store result storage chalc:macro grow.dz int 1 run random value -$(rang
 
 scoreboard players add #tries chalc 1
 
-execute store result score #grew_plant chalc run function chalc:pot/effect/grow_plant_at with storage chalc:macro grow
-$execute if score #grew_plant chalc matches 0 run function chalc:pot/effect/scan_for_plant {range:$(range)}
+execute store result score #grew_plant chalc run function chalc:pot/sheaf/grow_plant_at with storage chalc:macro grow
+$execute if score #grew_plant chalc matches 0 run function chalc:pot/sheaf/scan_for_plant {range:$(range)}

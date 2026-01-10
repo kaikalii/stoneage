@@ -5,4 +5,4 @@ $scoreboard players operation #damage chalc *= #$(to_dur) chalc
 $scoreboard players operation #damage chalc /= #$(from_dur) chalc
 execute store result storage chalc:macro upgrade.components."minecraft:damage" int 1 run scoreboard players get #damage chalc
 $data modify storage chalc:macro upgrade merge value {slot:$(slot),item:$(item),to:$(to)}
-function chalc:pot/effect/upgrade_slot_to with storage chalc:macro upgrade
+function chalc:pot/skull/upgrade_slot_to with storage chalc:macro upgrade

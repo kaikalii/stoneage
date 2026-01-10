@@ -7,14 +7,14 @@ execute if block ~ ~ ~ acacia_sapling[stage=0] run return run setblock ~ ~ ~ aca
 execute if block ~ ~ ~ dark_oak_sapling[stage=0] run return run setblock ~ ~ ~ dark_oak_sapling[stage=1]
 execute if block ~ ~ ~ pale_oak_sapling[stage=0] run return run setblock ~ ~ ~ pale_oak_sapling[stage=1]
 execute if block ~ ~ ~ cherry_sapling[stage=0] run return run setblock ~ ~ ~ cherry_sapling[stage=1]
-execute if block ~ ~ ~ oak_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:oak}
-execute if block ~ ~ ~ birch_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:birch}
-execute if block ~ ~ ~ spruce_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:spruce}
-execute if block ~ ~ ~ jungle_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:jungle}
-execute if block ~ ~ ~ acacia_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:acacia}
-execute if block ~ ~ ~ dark_oak_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:dark_oak}
-execute if block ~ ~ ~ pale_oak_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:pale_oak}
-execute if block ~ ~ ~ cherry_sapling[stage=1] run return run function chalc:pot/effect/grow_sapling {tree:cherry}
+execute if block ~ ~ ~ oak_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:oak}
+execute if block ~ ~ ~ birch_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:birch}
+execute if block ~ ~ ~ spruce_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:spruce}
+execute if block ~ ~ ~ jungle_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:jungle}
+execute if block ~ ~ ~ acacia_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:acacia}
+execute if block ~ ~ ~ dark_oak_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:dark_oak}
+execute if block ~ ~ ~ pale_oak_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:pale_oak}
+execute if block ~ ~ ~ cherry_sapling[stage=1] run return run function chalc:pot/sheaf/grow_sapling {tree:cherry}
 execute if block ~ ~ ~ wheat[age=0] run return run setblock ~ ~ ~ wheat[age=1]
 execute if block ~ ~ ~ wheat[age=1] run return run setblock ~ ~ ~ wheat[age=2]
 execute if block ~ ~ ~ wheat[age=2] run return run setblock ~ ~ ~ wheat[age=3]
