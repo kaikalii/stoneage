@@ -7,6 +7,7 @@ function chalc:pot/sherd/archer
 function chalc:pot/sherd/blade
 function chalc:pot/sherd/danger
 function chalc:pot/sherd/explorer
+function chalc:pot/sherd/flow
 function chalc:pot/sherd/heart
 function chalc:pot/sherd/miner
 function chalc:pot/sherd/sheaf

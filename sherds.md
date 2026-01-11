@@ -1,7 +1,7 @@
 | Sherd      | Location       | Effect                                | Scaling             |
 | ---------- | -------------- | ------------------------------------- | ------------------- |
 | Archer     | Desert Pyramid | Large AoE Glowing on all entities     | Range               |
-| Miner      | Desert Pyramid | AoE Haste on players                  | Strength then Range |
+| Miner      | Desert Pyramid | AoE Haste on players                  | Range the Strength  |
 | Prize      | Desert Pyramid |                                       |                     |
 | Skull      | Desert Pyramid | Convert golden equipment to netherite | Range               |
 | Arms Up    | Desert well    |                                       |                     |
@@ -20,6 +20,6 @@
 | Heartbreak | Trail Ruins    |                                       |                     |
 | Howl       | Trail Ruins    |                                       |                     |
 | Sheaf      | Trail Ruins    |                                       | Range and Frequency |
-| Flow       | Trial Chambers | Spawn water source when broken        |                     |
+| Flow       | Trial Chambers | Spawn water                           | None                |
 | Guster     | Trial Chambers |                                       |                     |
 | Scrape     | Trial Chambers |                                       |                     |

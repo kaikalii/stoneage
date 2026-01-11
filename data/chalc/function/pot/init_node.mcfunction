@@ -25,7 +25,9 @@ function chalc:pot/count_effect {sherd:blade}
 function chalc:pot/count_effect {sherd:brewer}
 function chalc:pot/count_effect {sherd:danger}
 function chalc:pot/count_effect {sherd:explorer}
+function chalc:pot/count_effect {sherd:flow}
 function chalc:pot/count_effect {sherd:friend}
+function chalc:pot/count_effect {sherd:guster}
 function chalc:pot/count_effect {sherd:heart}
 function chalc:pot/count_effect {sherd:heartbreak}
 function chalc:pot/count_effect {sherd:howl}
@@ -33,6 +35,7 @@ function chalc:pot/count_effect {sherd:miner}
 function chalc:pot/count_effect {sherd:mourner}
 function chalc:pot/count_effect {sherd:plenty}
 function chalc:pot/count_effect {sherd:prize}
+function chalc:pot/count_effect {sherd:scrape}
 function chalc:pot/count_effect {sherd:sheaf}
 function chalc:pot/count_effect {sherd:shelter}
 function chalc:pot/count_effect {sherd:skull}

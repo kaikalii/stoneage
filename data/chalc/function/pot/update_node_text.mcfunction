@@ -1,5 +1,6 @@
 execute if score @s chalc.pot_timer > @s chalc.pot_fuel_time run return run data modify entity @s text set value ""
 
+scoreboard players set #time_left chalc 0
 execute if items block ~ ~ ~ contents raw_iron_block store result score #time_left chalc run data get block ~ ~ ~ item{id:"minecraft:raw_iron_block"}.count
 execute if items block ~ ~ ~ contents iron_ingot store result score #time_left chalc run data get block ~ ~ ~ item{id:"minecraft:iron_ingot"}.count
 scoreboard players operation #time_left chalc *= @s chalc.pot_fuel_time
