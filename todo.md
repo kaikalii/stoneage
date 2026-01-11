@@ -7,5 +7,3 @@
   - Aesthetic
 - Uses for pitcher pod and torch flower
 - Add remaining pot effects
-- Add sherds to some other loot tables
-- Make sherds generate on trial chamber pots

@@ -20,6 +20,7 @@ scoreboard players operation @s chalc.pot_fuel_time /= #non_bricks chalc
 # Count sherds
 function chalc:pot/count_effect {sherd:angler}
 function chalc:pot/count_effect {sherd:archer}
+function chalc:pot/count_effect {sherd:arms_up}
 function chalc:pot/count_effect {sherd:burn}
 function chalc:pot/count_effect {sherd:blade}
 function chalc:pot/count_effect {sherd:brewer}
