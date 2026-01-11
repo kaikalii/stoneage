@@ -1,0 +1,12 @@
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^ run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^0.25 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^0.5 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^0.75 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^1 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^1.25 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^1.5 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^1.75 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^2 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^2.25 run particle $(particle)
+$execute unless function chalc:random/3 facing $(x) $(y) $(z) positioned ^ ^ ^2.5 run particle $(particle)
+scoreboard players set #showed_direction chalc 1
